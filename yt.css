@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+nav{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-left: 2em;
+  gap: 1em;
+}
+.middle{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-left: 2em;
+  gap: 1em;
+}
+.input input{
+  border: none;
+  width: 500px;
+  padding: 0.4em;
+  border-right: 1px solid black; 
+  margin-right: 5px;
+  cursor: pointer;
+  background-color:transparent;
+}
+.input input:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.input i{
+  color: white;
+}
+.input{
+  border: 1px solid black;
+  padding: 0.5em;
+  background-color:transparent;
+  border: 30rem;
+  border-radius: 60px;
+  border: 1px solid rgb(74, 72, 72);
+}
+.mic{
+  background-color: rgb(50, 49, 49);
+  padding: 0.7em;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.mic:hover{
+  background-color: rgb(123, 121, 121);
+}
+.right{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-left: 2em;
+  gap: 1em;*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+}
