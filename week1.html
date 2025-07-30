@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Practice Tasks</title>
+    
+    <!-- Task 2: Adding fav icon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Responsive Video Styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        pre {
+            background: #e6e6e6;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+
+        code {
+            font-family: monospace;
+            color: #c7254e;
+        }
+
+        kbd {
+            background-color: #eee;
+            border: 1px solid #ccc;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Task 1: Display Raw HTML Symbols -->
+    <h2>1. Display Raw HTML Symbols</h2>
+    <p>Here are the symbols displayed using HTML entities:</p>
+    <p>&lt; (less than)</p>
+    <p>&gt; (greater than)</p>
+    <p>&amp; (ampersand)</p>
+    <p>&quot; (double quote)</p>
+
+    <!-- Task 3: <pre>, <code>, and <kbd> Tags -->
+    <h2>2. Code and Keyboard Tags</h2>
+
+    <p>Here is a block of code:</p>
+    <pre><code>
+#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; "Hello, world!";
+    return 0;
+}
+    </code></pre>
+
+    <p>To save a file, press <kbd>Ctrl</kbd> + <kbd>S</kbd></p>
+
+    <!-- Task 4: Responsive YouTube Video -->
+    <h2>3. Responsive YouTube Video</h2>
+    <div class="video-container">
+        <iframe 
+            src="https://www.youtube.com/watch?v=1AxMnQzaO58&list=RD1AxMnQzaO58&start_radio=1&pp=oAcB" 
+            title="YouTube video player" 
+            allowfullscreen>
+        </iframe>
+    </div>
+
+</body>
+</html>
+
+</body>
+</html>
